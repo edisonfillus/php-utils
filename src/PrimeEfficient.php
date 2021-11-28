@@ -1,6 +1,6 @@
 <?php
 
-function primality($n)
+function primality(int $n): bool
 {
     if ($n < 2) {
         return false;

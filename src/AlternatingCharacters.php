@@ -7,7 +7,7 @@
  * The function accepts STRING s as parameter.
  */
 
-function alternatingCharacters($s) {
+function alternatingCharacters(string $s): int {
     $chars = str_split($s);
     $last = $chars[0];
     $deletions = 0;
