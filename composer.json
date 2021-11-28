@@ -1,0 +1,8 @@
+{
+    "name": "edisonfillus/php-utils",
+    "description": "Some php utils",
+    "require": {
+        "php": "^8.0",
+        "php-ds/php-ds": "^1.4"
+    }
+}
